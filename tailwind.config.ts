@@ -55,10 +55,17 @@ const config: Config = {
 			width: {
 				1440: '1440px'
 			},
+			height:{
+				720: '720px'
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage:{
+				topBanner: "url('../components/assets/BackgroundDeco.png')",
+				midRightBanner: "url('../components/assets/support.jpg')"
 			}
 		}
 	},
