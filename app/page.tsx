@@ -1,12 +1,20 @@
-import { Central } from "@/components/central/Central";
-import { Header } from "@/components/header/Header";
+import { AboutUs } from "@/components/sides/aboutUs/AboutUs";
+import { Central } from "@/components/sides/central/Central";
+import Facilities from "@/components/sides/facilities/Facilities";
+import { Header } from "@/components/sides/header/Header";
+import { Especialities } from "@/components/sides/especialities/Especialities";
+import { Localization } from "@/components/sides/localization/Localization";
 
 export default function Home() {
   return (
-    <div className="h-screen m-auto bg-topBanner bg-no-repeat bg-cover" >
+    <div className="m-auto bg-topBanner bg-no-repeat bg-cover" >
       <div className="w-1440 m-auto">
         <Header />
         <Central />
+        <AboutUs />
+        <Facilities />
+        <Especialities />
+        <Localization />
       </div>
     </div>
   );
