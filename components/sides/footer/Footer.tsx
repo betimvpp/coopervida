@@ -9,11 +9,11 @@ export const Footer = () => {
                     <h1 className='text-slate-600 font-semibold text-4xl'>Cooper</h1>
                     <h1 className='text-green-500 font-semibold text-4xl'>Vida</h1>
                 </span>
-                <p className='text-lg'>Seu bem-estar em primeiro lugar.</p>
-                <h2 className='text-base'>Powered by CodeHere@2024</h2>
+                <p className='text-lg text-slate-700'>Seu bem-estar em primeiro lugar.</p>
+                <h2 className='text-base text-slate-700'>Powered by CodeHere@2024</h2>
             </div>
             <div>
-                <h1 className='mb-3 font-semibold text-lg'>Menu</h1>
+                <h1 className='mb-3 font-semibold text-lg text-slate-700'>Menu</h1>
                 <div className='flex flex-col'>
                     <a href="" className=' text-slate-700 text-base hover:border-l-emerald-500 hover:border-solid hover:border-l-2 hover:text-emerald-500 '>Sobre Nós</a>
                     <a href="" className='text-slate-700 text-base hover:border-l-emerald-500 hover:border-solid hover:border-l-2 hover:text-emerald-500 '>Nossos Produtos</a>
@@ -23,7 +23,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div>
-                <h1 className='mb-3 font-semibold text-lg'>Nossas Redes Sociais</h1>
+                <h1 className='mb-3 font-semibold text-lg text-slate-700'>Nossas Redes Sociais</h1>
                 <div className='flex flex-col gap-2'>
                     <a className='flex items-center gap-1 text-slate-700 text-base hover:border-l-emerald-500 hover:border-solid hover:border-l-2 hover:text-emerald-500 ' href=''>
                         <Instagram />

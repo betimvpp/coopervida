@@ -26,22 +26,22 @@ export const AboutUs = () => {
                 </h1>
                 <span className="flex gap-4">
                     <span>
-                        <p className="text-3xl font-semibold">+200</p>
+                        <p className="text-3xl font-semibold text-slate-600">+200</p>
                         <h2 className="bg-emerald-500 text-white text-xl py-1 px-4 rounded-full">
                             Clinics
                         </h2>
                     </span>
                     <div className="w-0.5 bg-slate-600 flex"></div>
                     <span>
-                        <p className="text-3xl font-semibold">+450</p>
+                        <p className="text-3xl font-semibold text-slate-600">+450</p>
                         <h2 className="bg-emerald-500 text-white text-xl py-1 px-4 rounded-full">
                             Doctors
                         </h2>
                     </span>
                     <div className="w-0.5 bg-slate-600 flex"></div>
                     <span>
-                        <p className="text-3xl font-semibold">24</p>
-                        <h2 className="text-slate-700 text-lg">Hours Open</h2>
+                        <p className="text-3xl font-semibold text-slate-600">24</p>
+                        <h2 className="text-slate-900 font-semibold text-xl py-1">Hours Open</h2>
                     </span>
                 </span>
                 <span className='flex mt-6 gap-4'>
