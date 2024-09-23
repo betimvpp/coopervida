@@ -6,8 +6,8 @@ import Nurse from "@/components/assets/nurse.jpg"
 export const Card = () => {
     return (
         <div className="max-w-sm max-h-500 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
-                <Image className="rounded-t-lg h-1/2" src={Nurse} width={378} height={52} alt="" />
+            <a href="#" className='w-full h-full'>
+                <Image className="rounded-t-lg w-full h-64 object-cover" src={Nurse} width={0} height={0} alt="" />
             </a>
             <div className="p-5">
                 <a href="#">
