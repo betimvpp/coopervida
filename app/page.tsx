@@ -4,6 +4,7 @@ import Facilities from "@/components/sides/facilities/Facilities";
 import { Header } from "@/components/sides/header/Header";
 import { Especialities } from "@/components/sides/especialities/Especialities";
 import { Localization } from "@/components/sides/localization/Localization";
+import { Footer } from "@/components/sides/footer/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Facilities />
         <Especialities />
         <Localization />
+        <Footer />
       </div>
     </div>
   );
